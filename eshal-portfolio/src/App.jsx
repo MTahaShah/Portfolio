@@ -1,19 +1,23 @@
 import React from "react";
+import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="font-poppins bg-[#0d0d0d] text-white">
+    <>
       <Navbar />
       <Hero />
       <About />
+      <Skills />
       <Projects />
       <Contact />
-    </div>
+      <footer className="footer">© 2025 M. Taha Shah</footer>
+    </>
   );
 }
 
